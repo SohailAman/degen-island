@@ -18,7 +18,7 @@ export const Footer = () => {
 
         <ul className="list-none flex gap-3">
           <li>
-            <Link href={"#"}>
+            <Link href={"https://t.me/degenislandportal"} target="_blank">
               <Image
                 src={"/assets/facebook.svg"}
                 alt="facebook"
@@ -30,7 +30,7 @@ export const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href={"#"}>
+            <Link href={"https://t.me/degenislandportal"} target="_blank">
               <Image
                 src={"/assets/instagram.svg"}
                 alt="instagram"
@@ -42,7 +42,7 @@ export const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href={"#"}>
+            <Link href={"https://twitter.com/degenisles"} target="_blank">
               <Image
                 src={"/assets/twitter_old.svg"}
                 alt="twitter_old"
@@ -54,7 +54,7 @@ export const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href={"#"}>
+            <Link href={"https://t.me/degenislandportal"} target="_blank">
               <Image
                 src={"/assets/linkedin.svg"}
                 alt="linkedin"

@@ -10,6 +10,7 @@ import {
 } from "./components";
 import "swiper/css";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [scroll, setScroll] = useState(false);
@@ -134,7 +135,7 @@ export default function Home() {
 
         <div className="mb-[108px]">
           <div className="flex gap-4 items-center mt-[34px] w-[1324px] overflow-x-hidden">
-            <span className="block w-[57.6px] h-[4px] bg-gradient-to-r to-[#5A8D3E] from-[#a4d0d9]"></span>
+            <span className="block md:w-[57.6px] w-[40vw] h-[4px] bg-gradient-to-r to-[#5A8D3E] from-[#a4d0d9]"></span>
             <Image
               src={"/assets/palm_tree.svg"}
               alt="tree"
@@ -177,14 +178,14 @@ export default function Home() {
         </div>
 
         <div className="py-6 px-4">
-          <div className="flex items-center md:flex-row flex-col w-full gap-[28px] relative">
+          <div className="flex items-center md:flex-row flex-col w-full md:gap-[28px] gap-5 relative">
             <Image
               src={"/assets/palm_leaf.svg"}
               alt="leaf"
               width={0}
               height={0}
               sizes="2xl"
-              className="w-[111px] h-auto max-h-[111px] object-center absolute md:top-[-55px] top-[-60px] md:left-[-55px] left-0"
+              className="w-[111px] h-auto max-h-[111px] object-center absolute md:top-[-55px] top-[-75px] md:left-[-55px] left-0"
             />
             <HeadingText className="text-[26px] text-center text-stroke-green !text-[#2D459B] text-balance">
               We&apos;re here to build community, vibe
@@ -399,32 +400,36 @@ export default function Home() {
         </div>
 
         <div className="flex gap-[32px] justify-center mt-8">
-          <Button
-            className="lg:py-4 py-[11px] lg:px-10 px-[22px]"
-            parentClassName="p-1"
-          >
-            <Image
-              src={"/assets/twitter.svg"}
-              alt="twitter"
-              width={0}
-              height={0}
-              sizes="4xl"
-              className="h-auto xl:w-[80px] lg:w-[55px] w-[35.95px]"
-            />
-          </Button>
-          <Button
-            className="lg:py-4 py-[11px] lg:px-10 px-[22px]"
-            parentClassName="p-1"
-          >
-            <Image
-              src={"/assets/telegram.svg"}
-              alt="telegram"
-              width={0}
-              height={0}
-              sizes="4xl"
-              className="h-auto xl:w-[80px] lg:w-[55px] w-[35.95px]"
-            />
-          </Button>
+          <Link href="https://twitter.com/degenisles" target="_blank">
+            <Button
+              className="lg:py-4 py-[11px] lg:px-10 px-[22px]"
+              parentClassName="p-1"
+            >
+              <Image
+                src={"/assets/twitter.svg"}
+                alt="twitter"
+                width={0}
+                height={0}
+                sizes="4xl"
+                className="h-auto xl:w-[80px] lg:w-[55px] w-[35.95px]"
+              />
+            </Button>
+          </Link>
+          <Link href="https://t.me/degenislandportal" target="_blank">
+            <Button
+              className="lg:py-4 py-[11px] lg:px-10 px-[22px]"
+              parentClassName="p-1"
+            >
+              <Image
+                src={"/assets/telegram.svg"}
+                alt="telegram"
+                width={0}
+                height={0}
+                sizes="4xl"
+                className="h-auto xl:w-[80px] lg:w-[55px] w-[35.95px]"
+              />
+            </Button>
+          </Link>
         </div>
       </section>
       {/* footer */}
