@@ -330,7 +330,7 @@ export default function Home() {
           width={0}
           height={0}
           sizes="4xl"
-          className="w-full max-xl:h-[806px] max-lg:h-[800px] object-cover object-center mx-auto"
+          className="w-full desktop:h-[806px] max-lg:h-[800px] object-cover object-center mx-auto"
         />
 
         <div className="bg-[#000000cc] min-[1439px]:w-[847px] max-md:w-11/12 w-[calc(100%-32px)] min-[1439px]:p-20 md:p-12 p-6 absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2">
