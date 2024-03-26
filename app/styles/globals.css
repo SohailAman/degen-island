@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* fonts */
+
+@font-face {
+  font-family: "kanit-regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-regular"), url("/fonts/Kanit-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kanit-thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-thin"), url("/fonts/Kanit-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kanit-extra-light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-extra-light"),
+    url("/fonts/Kanit-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kanit-light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-light"), url("/fonts/Kanit-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kanit-medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-medium"), url("/fonts/Kanit-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kanit-semi-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-semi-bold"),
+    url("/fonts/Kanit-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kanit-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-bold"), url("/fonts/Kanit-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kanit-extra-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-extra-bold"),
+    url("/fonts/Kanit-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kanit-black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("kanit-black"), url("/fonts/Kanit-Black.woff") format("woff");
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  /* fonts */
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+  .font-rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+  .font-kanit {
+    font-family: "Kanit", sans-serif;
+  }
+  .font-kanit-regular {
+    font-family: "kanit-regular";
+  }
+  .font-kanit-thin {
+    font-family: "kanit-thin";
+  }
+  .font-kanit-extra-light {
+    font-family: "kanit-extra-light";
+  }
+  .font-kanit-light {
+    font-family: "kanit-light";
+  }
+  .font-kanit-medium {
+    font-family: "kanit-medium";
+  }
+  .font-kanit-semi-bold {
+    font-family: "kanit-semi-bold";
+  }
+  .font-kanit-bold {
+    font-family: "kanit-bold";
+  }
+  .font-kanit-extra-bold {
+    font-family: "kanit-extra-bold";
+  }
+  .font-kanit-black {
+    font-family: "kanit-black";
+  }
+  /* util styles */
+  .text-stroke-blue {
+    text-shadow: 1.8px 1.8px 0 #2d459b, -1.8px -1.8px 0 #2d459b,
+      1.8px -1.8px 0 #2d459b, -1.8px 1.8px 0 #2d459b, 0 1.8px 0 #2d459b,
+      1.8px 0 0 #2d459b, 0 -1.8px 0 #2d459b;
+  }
+  .text-stroke-black {
+    text-shadow: 1.8px 1.8px 0 #000, -1.8px -1.8px 0 #000, 1.8px -1.8px 0 #000,
+      -1.8px 1.8px 0 #000, 0 1.8px 0 #000, 1.8px 0 0 #000, 0 -1.8px 0 #000;
+  }
+  .text-stroke-black-lg {
+    text-shadow: 6px 6px 0 #000, -6px -6px 0 #000, 6px -6px 0 #000,
+      -6px 6px 0 #000, 0 6px 0 #000, 6px 0 0 #000, 0 -6px 0 #000;
+  }
+  .text-stroke-green {
+    text-shadow: 1.8px 1.8px 0 #6dcb37, -1.8px -1.8px 0 #6dcb37,
+      1.8px -1.8px 0 #6dcb37, -1.8px 1.8px 0 #6dcb37, 0 1.8px 0 #6dcb37,
+      1.8px 0 0 #6dcb37, 0 -1.8px 0 #6dcb37;
+  }
+  .clip-bg-text {
+    background-color: lightgray 0px 0px / 145.476% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
