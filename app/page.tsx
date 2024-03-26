@@ -62,10 +62,11 @@ export default function Home() {
                 What is Degen Island?
               </h1>
               <p className="lg:text-[24px] md:text-[18px] text-[16px] leading-[120%] font-[400] font-kanit-light lg:mt-[36px] mt-[24px] mb-6">
-                Degen Island is <br /> Our founding fathers came to the
-                realization that ultimately, all degens, whether seasoned Web3
-                natives or normies, are in the space to &quot;make it&quot; to
-                their own personal slice of paradise.
+                Degen Island is the hub of the meme ecosystem.
+                <br /> Our founding fathers came to the realization that
+                ultimately, all degens, whether seasoned Web3 natives or
+                normies, are in the space to &quot;make it&quot; to their own
+                personal slice of paradise.
               </p>
               <ul className="lg:text-[24px] md:text-[18px] text-[16px] leading-[120%] font-kanit-light list-disc pl-6 mb-6">
                 <li>
@@ -133,49 +134,47 @@ export default function Home() {
           DEGEN ISLAND ROADMAP
         </HeadingText>
 
-        <div className="mb-[108px]">
-          <div className="flex gap-4 items-center mt-[34px] w-[1324px] overflow-x-hidden">
-            <span className="block md:w-[57.6px] w-[40vw] h-[4px] bg-gradient-to-r to-[#5A8D3E] from-[#a4d0d9]"></span>
-            <Image
-              src={"/assets/palm_tree.svg"}
-              alt="tree"
-              width={0}
-              height={0}
-              sizes="xl"
-              className="w-[67px] h-auto max-h-[66px] object-cover object-center mx-auto"
-            />
-            <span className="block w-[231.6px] h-[4px] bg-[#5A8D3E]"></span>
-            <Image
-              src={"/assets/palm_tree.svg"}
-              alt="tree"
-              width={0}
-              height={0}
-              sizes="xl"
-              className="w-[67px] h-auto max-h-[66px] object-cover object-center mx-auto"
-            />
-            <span className="block w-[231.6px] h-[4px] bg-[#5A8D3E]"></span>
-            <Image
-              src={"/assets/palm_tree.svg"}
-              alt="tree"
-              width={0}
-              height={0}
-              sizes="xl"
-              className="w-[67px] h-auto max-h-[66px] object-cover object-center mx-auto"
-            />
-            <span className="block w-[231.6px] h-[4px] bg-[#5A8D3E]"></span>
-            <Image
-              src={"/assets/palm_tree.svg"}
-              alt="tree"
-              width={0}
-              height={0}
-              sizes="xl"
-              className="w-[67px] h-auto max-h-[66px] object-cover object-center mx-auto"
-            />
-            <span className="block w-[170px] h-[4px] bg-gradient-to-r from-[#5A8D3E] to-[#a4d0d9]"></span>
-          </div>
+        {/* <div className="flex gap-4 items-center mt-[34px] w-[1324px] overflow-x-hidden">
+          <span className="block md:w-[57.6px] w-[40vw] h-[4px] bg-gradient-to-r to-[#5A8D3E] from-[#a4d0d9]"></span>
+          <Image
+            src={"/assets/palm_tree.svg"}
+            alt="tree"
+            width={0}
+            height={0}
+            sizes="xl"
+            className="w-[67px] h-auto max-h-[66px] object-cover object-center mx-auto"
+          />
+          <span className="block w-[231.6px] h-[4px] bg-[#5A8D3E]"></span>
+          <Image
+            src={"/assets/palm_tree.svg"}
+            alt="tree"
+            width={0}
+            height={0}
+            sizes="xl"
+            className="w-[67px] h-auto max-h-[66px] object-cover object-center mx-auto"
+          />
+          <span className="block w-[231.6px] h-[4px] bg-[#5A8D3E]"></span>
+          <Image
+            src={"/assets/palm_tree.svg"}
+            alt="tree"
+            width={0}
+            height={0}
+            sizes="xl"
+            className="w-[67px] h-auto max-h-[66px] object-cover object-center mx-auto"
+          />
+          <span className="block w-[231.6px] h-[4px] bg-[#5A8D3E]"></span>
+          <Image
+            src={"/assets/palm_tree.svg"}
+            alt="tree"
+            width={0}
+            height={0}
+            sizes="xl"
+            className="w-[67px] h-auto max-h-[66px] object-cover object-center mx-auto"
+          />
+          <span className="block w-[170px] h-[4px] bg-gradient-to-r from-[#5A8D3E] to-[#a4d0d9]"></span>
+        </div> */}
 
-          <RoadmapSlider />
-        </div>
+        <RoadmapSlider />
 
         <div className="py-6 px-4">
           <div className="flex items-center md:flex-row flex-col w-full md:gap-[28px] gap-5 relative">

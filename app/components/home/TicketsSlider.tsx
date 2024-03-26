@@ -10,7 +10,7 @@ export const TicketsSlider = () => {
     <Swiper
       spaceBetween={10}
       grabCursor={true}
-      speed={800}
+      speed={350}
       freeMode={true}
       mousewheel={{ releaseOnEdges: true }}
       keyboard={{
@@ -19,6 +19,9 @@ export const TicketsSlider = () => {
       modules={[Keyboard, Mousewheel]}
       breakpoints={{
         0: {
+          slidesPerView: 1,
+        },
+        375: {
           slidesPerView: 1.2,
         },
         640: {
@@ -52,7 +55,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -63,16 +66,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -127,7 +130,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
@@ -154,7 +157,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -165,16 +168,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -229,7 +232,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
@@ -256,7 +259,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -267,16 +270,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -331,7 +334,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
@@ -358,7 +361,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -369,16 +372,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -433,7 +436,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
@@ -460,7 +463,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -471,16 +474,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -535,7 +538,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
@@ -562,7 +565,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -573,16 +576,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -637,7 +640,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
@@ -664,7 +667,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -675,16 +678,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -739,7 +742,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
@@ -766,7 +769,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -777,16 +780,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -841,7 +844,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
@@ -868,7 +871,7 @@ export const TicketsSlider = () => {
           />
 
           <div className="flex items-baseline justify-between mt-2.5 gap-[30px]">
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-poppins">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-poppins">
               LAX
             </h4>
             <Image
@@ -879,16 +882,16 @@ export const TicketsSlider = () => {
               sizes="2xl"
               className="sm:w-[153px] w-[138px] h-auto"
             />
-            <h4 className="text-[24px] m-0 font-[400] text-[#ADD8EB] font-p">
+            <h4 className="md:text-[24px] text-lg m-0 font-[400] text-[#ADD8EB] font-p">
               DGI
             </h4>
           </div>
 
-          <div className="flex justify-between pb-[25px]">
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+          <div className="flex justify-between md:pb-[25px] pb-[22px]">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Los Angeles
             </h5>
-            <h5 className="text-[14px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
+            <h5 className="md:text-[14px] text-xs font-[400] text-[#8C8A93] font-poppins text-nowrap">
               Degen Island
             </h5>
           </div>
@@ -943,7 +946,7 @@ export const TicketsSlider = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center pt-6 gap-[18px]">
-            <h3 className="text-[14px] font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
+            <h3 className="md:text-[14px] text-xs font-[600] text-[#45EA69] text-center font-poppins leading-[124%]">
               First Class
             </h3>
             <Image
