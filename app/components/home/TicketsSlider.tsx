@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { Keyboard, Mousewheel } from "swiper/modules";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,6 +11,12 @@ export const TicketsSlider = () => {
       spaceBetween={10}
       grabCursor={true}
       speed={800}
+      freeMode={true}
+      mousewheel={{ releaseOnEdges: true }}
+      keyboard={{
+        enabled: true,
+      }}
+      modules={[Keyboard, Mousewheel]}
       breakpoints={{
         0: {
           slidesPerView: 1.2,
@@ -27,10 +34,10 @@ export const TicketsSlider = () => {
           slidesPerView: 3.5,
         },
         1400: {
-          slidesPerView: 4.1,
+          slidesPerView: 4.3,
         },
       }}
-      className="mySwiper min-[992px]:-mr-6  min-[992px]:w-[calc(100%+24px)] min-[992px]:ml-[25px] !ml-[14px] mb-[113px]"
+      className="mySwiper min-[992px]:-mr-6 md:!mr-0 !mr-2.5  min-[992px]:w-[calc(100%+24px)] min-[992px]:ml-[25px] !ml-[14px] !pb-[113px] !pt-[71px]"
     >
       <SwiperSlide>
         <div className="bg-[#313133] rounded-bl-[20px] rounded-2xl pt-3 px-4 pb-[19px]">
@@ -70,7 +77,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
@@ -172,7 +179,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
@@ -274,7 +281,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
@@ -376,7 +383,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
@@ -478,7 +485,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
@@ -580,7 +587,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
@@ -682,7 +689,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
@@ -784,7 +791,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">
@@ -849,7 +856,7 @@ export const TicketsSlider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="bg-[#313133] rounded-bl-[20px] rounded-2xl pt-3 px-4 pb-[19px]">
+        <div className="bg-[#313133] rounded-bl-[20px] rounded-2xl pt-3 px-4 pb-[19px] md:!mr-4">
           <Image
             src={"/assets/logo.svg"}
             priority
@@ -886,7 +893,7 @@ export const TicketsSlider = () => {
             </h5>
           </div>
 
-          <div className="flex w-[calc(100%+32px)] flex-col gap-[24px] border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
+          <div className="flex w-[calc(100%+32px)] flex-col md:gap-[24px] gap-5 border-t border-t-[#1D1D1F] pt-[30px] pb-[55px] relative -mx-4 px-4 h-[205px]">
             <div className="flex justify-between">
               <div className="basis-1/4">
                 <h5 className="text-[12px] font-[400] text-[#8C8A93] font-poppins text-nowrap">

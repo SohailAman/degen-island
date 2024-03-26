@@ -101,7 +101,7 @@ export default function Home() {
           </div>
         </div>
         {/* banner */}
-        <div className="lg:w-[calc(100%+48px)] md:w-[calc(100%+32px)] lg:-mx-6 md:-mx-4 mb-[71px]">
+        <div className="lg:w-[calc(100%+48px)] md:w-[calc(100%+32px)] lg:-mx-6 md:-mx-4">
           <Image
             src={"/assets/vacation.png"}
             alt="vacation"

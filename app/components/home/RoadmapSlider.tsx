@@ -3,12 +3,19 @@ import Image from "next/image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { HeadingText } from "..";
+import { Keyboard, Mousewheel } from "swiper/modules";
 
 export const RoadmapSlider = () => {
   return (
     <Swiper
       grabCursor={true}
       speed={800}
+      freeMode={true}
+      mousewheel={{ releaseOnEdges: true }}
+      keyboard={{
+        enabled: true,
+      }}
+      modules={[Keyboard, Mousewheel]}
       breakpoints={{
         0: {
           slidesPerView: 1.2,
@@ -34,7 +41,7 @@ export const RoadmapSlider = () => {
           slidesPerView: 4,
         },
       }}
-      className="myRoadmapSwiper max-md:!ml-4"
+      className="myRoadmapSwiper max-md:!ml-4 !pb-[108px]"
     >
       <SwiperSlide className="relative">
         <div className="mt-[19px]">
