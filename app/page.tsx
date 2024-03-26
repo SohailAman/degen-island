@@ -42,9 +42,10 @@ export default function Home() {
         />
         <div className=" lg:mb-[92px] mb-20">
           <div className="w-full lg:mt-[27px] md:mt-4 xl:mb-[43px] lg:mb-5 mb-0">
-            <Image
-              src={"/assets/hero_img.png"}
-              priority
+            <img
+              src={
+                "https://firebasestorage.googleapis.com/v0/b/degen-island.appspot.com/o/pepeisland-min_1.webp?alt=media&token=0bf9227a-4575-40e8-b197-73b50a305fe8"
+              }
               alt="hero"
               width={0}
               height={0}
@@ -103,10 +104,11 @@ export default function Home() {
         </div>
         {/* banner */}
         <div className="lg:w-[calc(100%+48px)] md:w-[calc(100%+32px)] lg:-mx-6 md:-mx-4">
-          <Image
-            src={"/assets/vacation.png"}
+          <img
+            src={
+              "https://firebasestorage.googleapis.com/v0/b/degen-island.appspot.com/o/degenislandcommunity-min_1.webp?alt=media&token=a5ad6494-16e3-4df8-8197-1b5d9779b0ba"
+            }
             alt="vacation"
-            priority
             width={0}
             height={0}
             sizes="4xl"
@@ -221,10 +223,11 @@ export default function Home() {
       </section>
       {/* banner */}
       <section className="lg:w-[calc(100%+48px)] md:w-[calc(100%+32px)] lg:-mx-6 md:-mx-4 mb-[67px]">
-        <Image
-          src={"/assets/degenisland.png"}
+        <img
+          src={
+            "https://firebasestorage.googleapis.com/v0/b/degen-island.appspot.com/o/degenisland2-min_1.webp?alt=media&token=a48d1620-8f6a-4231-93ef-2cb81ae3c028"
+          }
           alt="degenisland"
-          priority
           width={0}
           height={0}
           sizes="4xl"
@@ -323,10 +326,11 @@ export default function Home() {
       </section>
       {/* How to buy */}
       <section className="lg:w-[calc(100%+48px)] md:w-[calc(100%+32px)] lg:-mx-6 md:-mx-4 mb-[47px] relative h-auto">
-        <Image
-          src={"/assets/boarding.png"}
+        <img
+          src={
+            "https://firebasestorage.googleapis.com/v0/b/degen-island.appspot.com/o/boardingPJ2-min_1.webp?alt=media&token=5d2b1e0c-7682-47e1-8db4-740bfdbc8849"
+          }
           alt="boarding"
-          priority
           width={0}
           height={0}
           sizes="4xl"
