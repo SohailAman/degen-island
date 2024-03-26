@@ -212,13 +212,13 @@ export default function Home() {
               className="w-[111px] h-auto max-h-[111px] object-center absolute bottom-[-55px] md:right-[-55px] right-[-30px] rotate-180"
             />
           </div>
-
+          <a href="https://t.me/degenislandportal" target="_blank" rel="noopener noreferrer">
           <Button
             className="text-[16px] text-[#6dcb37] py-2 px-5 font-[900] font-roboto"
             parentClassName="mx-auto mt-[13px]"
           >
             TRADE
-          </Button>
+          </Button></a>
         </div>
       </section>
       {/* banner */}
@@ -286,9 +286,11 @@ export default function Home() {
                 sizes="xl"
                 className="w-[26px] h-auto max-h-[26px]"
               />
+            <a href="https://t.me/degenislandportal" target="_blank" rel="noopener noreferrer">
               <p className="text-[22px] leading-[109.091%] font-kanit-black uppercase">
-                pancake Swap
+                Pancake Swap
               </p>
+            </a>
             </span>
             <Image
               src={"/assets/arrow_right.svg"}
@@ -309,9 +311,11 @@ export default function Home() {
                 sizes="xl"
                 className="w-[32px] h-auto max-h-[32px]"
               />
+            <a href="https://t.me/degenislandportal" target="_blank" rel="noopener noreferrer">
               <p className="text-[22px] leading-[109.091%] font-kanit-black uppercase">
                 UNISWAP
               </p>
+            </a>
             </span>
             <Image
               src={"/assets/arrow_right.svg"}

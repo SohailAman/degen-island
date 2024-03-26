@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta property="og:title" content="Falcrum^4" />
-      <meta property="og:description" content="Bridging the Talent-Tech Gap" />
+      <meta property="og:title" content="degen Island" />
+      <meta property="og:description" content="FLIGHTS TO DEGEN ISLAND DEGEN ISLAND, ARE NOW BOARDING" />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Falcrum^4" />
+      <meta property="og:site_name" content="degen Island" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
       <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />

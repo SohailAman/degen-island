@@ -33,7 +33,7 @@ export const Navbar = () => {
         />
       </div>
       <div className="border border-black flex justify-center items-center p-2 lg:pr-[35.75px] md:pr-6 pr-5">
-        <button className="font-kanit font-bold lg:text-[17px] md:text-[15px] text-[13px] relative flex justify-center items-center gap-0.5">
+        <button   onClick={() => window.open('https://t.me/degenislandportal', '_blank', 'noopener,noreferrer')} className="font-kanit font-bold lg:text-[17px] md:text-[15px] text-[13px] relative flex justify-center items-center gap-0.5">
           Start trading
           <span className="block lg:w-[25px] md:w-4 w-3 lg:h-[5px] h-0.5 bg-black absolute top-1/2 -translate-y-1/2 lg:right-[-29px] md:-right-5 -right-4"></span>
         </button>
