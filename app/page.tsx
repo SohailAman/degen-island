@@ -242,7 +242,7 @@ export default function Home() {
 
         <div className="flex w-full flex-wrap justify-center items-center xl:gap-[92px] lg:gap-10 gap-[33px] md:flex-row flex-col mt-11 mb-[114px]">
           <div className="flex-col flex lg:gap-[14px] gap-3 justify-center items-center">
-            <h1 className="clip-bg-text text-[100px] font-kanit-bold bg-[linear-gradient(#00000030,#00000030),url(/assets/boarding.png)]  bg-no-repeat bg-cover bg-[90%]">
+            <h1 className="clip-bg-text text-[100px] font-kanit-bold bg-[linear-gradient(#00000030,#00000030),url(https://firebasestorage.googleapis.com/v0/b/degen-island.appspot.com/o/boardingPJ2-2.webp?alt=media&token=26f18eb5-f810-4e36-8e5e-e2fb282c6230)]  bg-no-repeat bg-cover bg-[90%]">
               40%
             </h1>
             <h3 className="font-kanit-bold text-[35px] leading-[111.4%] uppercase text-center">
@@ -250,7 +250,7 @@ export default function Home() {
             </h3>
           </div>
           <div className="flex-col flex lg:gap-[14px] gap-3 justify-center items-center">
-            <h1 className="clip-bg-text text-[100px] font-kanit-bold bg-[linear-gradient(#00000030,#00000030),url(/assets/vacation.png)]  bg-no-repeat bg-cover bg-[90%]">
+            <h1 className="clip-bg-text text-[100px] font-kanit-bold bg-[linear-gradient(#00000030,#00000030),url(https://firebasestorage.googleapis.com/v0/b/degen-island.appspot.com/o/boardingPJ2-1.webp?alt=media&token=a8ac870e-6246-4d74-a23f-46e6f326110e)]  bg-no-repeat bg-cover bg-[90%]">
               40%
             </h1>
             <h3 className="font-kanit-bold text-[35px] leading-[111.4%] uppercase text-center">
@@ -258,7 +258,7 @@ export default function Home() {
             </h3>
           </div>
           <div className="flex-col flex lg:gap-[14px] gap-3 justify-center items-center">
-            <h1 className="clip-bg-text text-[100px] font-kanit-bold bg-[linear-gradient(#00000030,#00000030),url(/assets/boarding.png)]  bg-no-repeat bg-cover bg-[90%]">
+            <h1 className="clip-bg-text text-[100px] font-kanit-bold bg-[linear-gradient(#00000030,#00000030),url(https://firebasestorage.googleapis.com/v0/b/degen-island.appspot.com/o/boardingPJ2-2.webp?alt=media&token=26f18eb5-f810-4e36-8e5e-e2fb282c6230)]  bg-no-repeat bg-cover bg-[90%]">
               13%
             </h1>
             <h3 className="font-kanit-bold text-[35px] leading-[111.4%] uppercase text-center">
@@ -266,7 +266,7 @@ export default function Home() {
             </h3>
           </div>
           <div className="flex-col flex lg:gap-[14px] gap-3 justify-center items-center">
-            <h1 className="clip-bg-text text-[100px] font-kanit-bold bg-[linear-gradient(#00000030,#00000030),url(/assets/vacation.png)]  bg-no-repeat bg-cover bg-[90%]">
+            <h1 className="clip-bg-text text-[100px] font-kanit-bold bg-[linear-gradient(#00000030,#00000030),url(https://firebasestorage.googleapis.com/v0/b/degen-island.appspot.com/o/boardingPJ2-3.webp?alt=media&token=6566310b-f339-4440-bedd-6a11a6eecc2d)]  bg-no-repeat bg-cover bg-[90%]">
               7%
             </h1>
             <h3 className="font-kanit-bold text-[35px] leading-[111.4%] uppercase text-center">
